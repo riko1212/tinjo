@@ -34,6 +34,40 @@ a {
   align-items: center;
 }
 
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: calc(40 / 24);
+  margin-bottom: 32px;
+}
+
+.section-title {
+  font-weight: 600;
+  color: #000000;
+}
+
+.view-all {
+  color: #00a8cc;
+}
+
+.article-title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  color: #0a2a42;
+}
+
+.article-text {
+  font-family: "Heebo";
+  font-size: 18px;
+  line-height: 1.5;
+  color: #21243d;
+}
+
 .nav-header {
   display: flex;
 }
@@ -109,25 +143,6 @@ a {
   background-color: #edf7fa;
 }
 
-.posts-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: calc(40 / 24);
-  margin-bottom: 32px;
-}
-
-.section-title {
-  font-weight: 600;
-  color: #000000;
-}
-
-.view-all {
-  color: #00a8cc;
-}
-
 .posts-list {
     display: flex;
     gap: 24px;
@@ -142,14 +157,6 @@ a {
   padding: 16px;
   border-radius: 8px;
   background: #ffffff;
-}
-
-.post-title {
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 1.5;
-  margin-bottom: 8px;
-  color: #0a2a42;
 }
 
 .article-top {
@@ -171,9 +178,61 @@ a {
     margin-right: 15px;
 }
 
-.article-text {
-  font-family: "Heebo";
-  font-size: 18px;
-  line-height: 1.5;
-  color: #21243d;
+.feature {
+  padding: 40px 0;
 }
+
+.feature-head {
+  margin-bottom: 22px;
+}
+
+.feature-item {
+  padding-top: 27px;
+  padding-bottom: 27px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.08);
+}
+
+.feature-item:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.feature-article {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.feature-content {
+  max-width: 585px;
+
+}
+
+.feature-info {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.feature-year {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 73px;
+  height: 32px;
+  background: #2A326F;
+  border-radius: 8px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.feature-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #8695A4;
+}
+
