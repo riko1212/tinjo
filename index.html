@@ -202,9 +202,50 @@
         <p class="footer-copy">© 2022 Your Name. All rights reserved.</p>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button type="button" class="modal-btn" data-modal-close>X</button>
+        <p class="modal-title">Title</p>
+        <form>
+          <div class="modal-field">
+            <label for="user-name">name</label>
+            <div class="modal-input-wrap">
+              <input
+                type="text"
+                class="modal-input"
+                name="user-name"
+                placeholder="name"
+                id="user-name"
+              />
+              <svg class="social-icon" width="24" height="24">
+                <use href="./img/icons.svg#twit"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="user-name">name</label>
+            <div class="modal-input-wrap">
+              <input
+                type="email"
+                class="modal-input"
+                name="user-email"
+                placeholder="email"
+              />
+            </div>
+          </div>
+          <div class="modal-field">
+            <input
+              type="checkbox"
+              value="on"
+              name="policy"
+              id="policy"
+              class="modal-check"
+            />
+            <label for="policy" class="check-text">toggle</label>
+          </div>
+
+          <button type="submit">send</button>
+        </form>
       </div>
     </div>
     <script src="./js/menu.js"></script>
