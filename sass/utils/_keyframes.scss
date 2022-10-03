@@ -1,0 +1,20 @@
+@keyframes shadow-change {
+  0% {
+    box-shadow: -9px 12px #edf7fa;
+  }
+  20% {
+    box-shadow: -9px 12px #47bee2;
+  }
+  40% {
+    box-shadow: -9px 12px #45b269;
+  }
+  60% {
+    box-shadow: -9px 12px #cb4dba;
+  }
+  80% {
+    box-shadow: -9px 12px #df6161;
+  }
+  100% {
+    box-shadow: -9px 12px #edf7fa;
+  }
+}

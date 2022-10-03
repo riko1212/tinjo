@@ -1,0 +1,65 @@
+.hero {
+  padding: 57px 0;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 62px;
+}
+
+.left-container {
+  max-width: 548px;
+}
+
+.hero-title {
+  @include font(44px, 700, 53px, null);
+  // font-weight: 700;
+  // font-size: 44px;
+  // line-height: calc(53 / 44);
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.hero-text {
+  font-family: 'Heebo';
+  font-size: 18px;
+  line-height: 1.5;
+  color: #21243d;
+  margin-bottom: 24px;
+}
+
+.hero-btn {
+  font-family: 'Inter';
+  font-style: normal;
+  padding: 3px 28px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 2.22;
+  text-align: center;
+  color: #ffffff;
+  background: #ff6464;
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+/* .hero-image-wrap {
+  width: 243px;
+  height: 243px;
+  background-color: #edf7fa;
+  position: relative;
+  border-radius: 50%;
+} */
+
+/* .hero-image:hover {
+  box-shadow: -9px 12px #60c9e9;
+} */
+
+.hero-image {
+  border-radius: 50%;
+  box-shadow: -9px 12px #edf7fa;
+  /* animation-name: shadow-change;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite; */
+}

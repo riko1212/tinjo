@@ -1,0 +1,40 @@
+.posts {
+  padding-top: 40px;
+  padding-bottom: 72px;
+  background-color: #edf7fa;
+}
+
+.posts-list {
+  display: flex;
+  gap: 24px;
+}
+
+.post-item {
+  width: calc((100% - 24px) / 2);
+}
+
+.post-link {
+  display: block;
+  padding: 16px;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.article-top {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.article-top .data,
+.article-top .description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #636b78;
+}
+
+.article-top .data {
+  padding-right: 15px;
+  border-right: 2px solid #636b78;
+  margin-right: 15px;
+}

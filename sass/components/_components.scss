@@ -1,0 +1,45 @@
+.container {
+  width: 930px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: calc(40 / 24);
+  margin-bottom: 32px;
+}
+
+.section-title {
+  font-weight: 600;
+  color: #000000;
+}
+
+.view-all {
+  color: #00a8cc;
+}
+
+.article-title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  color: #0a2a42;
+}
+
+.article-text {
+  font-family: 'Heebo';
+  font-size: 18px;
+  line-height: 1.5;
+  color: #21243d;
+}
